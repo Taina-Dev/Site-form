@@ -427,6 +427,17 @@ section{
     width: 100%;
 }
 
+@media screen and (min-width:1000px){
+    html{
+        font-size: 55%;
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    section{
+        padding: 2rem;
+    }
+}
 
 @media (max-width:991px){
     html{
