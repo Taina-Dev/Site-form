@@ -189,7 +189,6 @@ section{
 .galeria .box-container .box:hover .icons{
   bottom: 0;
 }
-
 .galeria .box-container .box .icons a{
     font-size: 2rem;
     margin: .5rem 1rem;
@@ -426,19 +425,6 @@ section{
     display: block;
     width: 100%;
 }
-
-@media (max-width:991px){
-    html{
-        font-size: 55%;
-    }
-    .header{
-        padding: 1.5rem 2rem;
-    }
-    section{
-        padding: 2rem;
-    }
-}
-
 
 
 @media (max-width:991px){
