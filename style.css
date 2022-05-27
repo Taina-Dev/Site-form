@@ -427,18 +427,6 @@ section{
     width: 100%;
 }
 
-@media screen and (min-width:1000px){
-    html{
-        font-size: 55%;
-    }
-    .header{
-        padding: 1.5rem 2rem;
-    }
-    section{
-        padding: 2rem;
-    }
-}
-
 @media (max-width:991px){
     html{
         font-size: 55%;
@@ -487,35 +475,13 @@ section{
   
 }
 
-@media (min-width:1000px){
+@media (min-width:450px){
     html{
         font-size: 50%;
     }
     .contato form .inputBox input{
         width: 100%; 
     }
-    
-    .home .home-slider .swiper-slide{
-        overflow: hidden;
-        border-radius: .5rem;
-        height: 40rem;
-        width: 30rem;
-        margin: 1rem;
-    } 
-    
-    .swiper-slide {
-        background-position: center;
-        background-size: cover;
-        width: 300px;
-        height: 300px;
-        border: 3px solid #ED4E6B;
-    }
-    
-    .swiper-slide img {
-        display: block;
-        width: 100%;
-    }
-    
      
    
 }
