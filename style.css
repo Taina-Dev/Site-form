@@ -126,7 +126,11 @@ section{
    border-radius: .5rem;
    border: 1rem solid #ea084c;
 }
-
+.sobrenos .row .image2 img{
+    width: 100%;
+    border-radius: .5rem;
+   
+ }
 .sobrenos .row .content{
     flex: 1 1 45rem;
 }
@@ -515,6 +519,101 @@ section{
     animation-delay: .5s;
 }
 
+.review .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.review .box-container .box{
+    background: #333;
+    margin:1rem;
+    padding:1rem;
+    text-align: center;
+    position: relative;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    flex:1 1 30rem;
+    border-radius: .5rem;
+}
+
+.review .box-container .box .fa-quote-right{
+    position: absolute;
+    top:1rem; right:2rem;
+    font-size: 8rem;
+    color:#ea084c;
+   
+}
+
+.review .box-container .box .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 7rem;
+    width:7rem;
+    margin-top: 2rem;
+}
+
+.review .box-container .box .user h3{
+    color:aliceblue;
+    font-size: 2rem;
+}
+
+.review .box-container .box .user .stars i{
+    color:#ea084c;
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+
+.review .box-container .box .comment{
+    color:aliceblue;
+    font-size: 1.4rem;
+    padding:1rem;
+}
+
+
+
+/* .review .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .review .box-container .box{
+    text-align: center;
+    margin:1rem;
+    padding:2rem;
+    flex:1 1 33rem;
+    border:.1rem solid rgba(0,0,0,.3);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+  }
+  
+  .review .box-container .box img{
+    height:13rem;
+    width:13rem;
+    padding:1rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+  }
+  
+  .review .box-container .box p{
+    font-size: 1.4rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .review .box-container .box .stars i{
+    padding:1rem .1rem;
+    font-size: 2rem;
+    color: #ea084c;
+  } */
 @keyframes animar {
     0%{
         transform: scale(0.5);
